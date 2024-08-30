@@ -13,8 +13,17 @@ class Bug:
         self.name = name
         self.position = position
 
-    # todo: implement accessor and mutator methods
+    def move_up(self, units):
+        self.position[1] += units
+
+    def move_down(self, units):
+        self.position[1] -= units
+
+    def move_left(self, units):
+        self.position[0] -= units
+
+    def move_right(self, units):
+        self.position[0] += units
 
     def __str__(self):
         return f"Name: {self.name}\nPosition: ({self.position[0]}, {self.position[1]})"
-
