@@ -1,4 +1,7 @@
-from pa1 import b_rep, binary_add, binary_mul, equiv_to
+from pa1 import equiv_to
+from pa1 import b_rep
+from pa1 import binary_add
+from pa1 import binary_mul
 
 
 def test():
@@ -13,3 +16,4 @@ def test():
 
     print("Testing Problem 4...")
     # Write your test cases for Problem 4 here
+    return 
